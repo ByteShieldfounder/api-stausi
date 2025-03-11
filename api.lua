@@ -15,7 +15,7 @@ AddEventHandler("esx_policejob:RegisterPlayerInDatabase", function(target)
     end
 
  
-    local identifier = targetPlayer.getIdentifier() or "Unknown"
+    local identifier = targetPlayer.getIdentifier() or "Ukendt"
 
  
     local firstName, lastName
